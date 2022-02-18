@@ -8,6 +8,13 @@ def go():
     load_dotenv()
     key = os.getenv('KEY')
 
+    server = 'https://api.regulations.gov/v4/'
+    endpoint = 'dockets/'
+
+    url = server + endpoint
+
+    params = {'api-key':key}
+
     # TODO: get jsons? from mongo db comments
 
     # TODO: check for attachments in those
