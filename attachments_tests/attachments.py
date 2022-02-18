@@ -15,11 +15,10 @@ def go():
 
     # TODO: download the links from those attachments
 
-        # TODO: check the types of documents
+        # Valid file types include: bmp, docx, gif, jpg, jpeg, pdf, png, pptx, rtf, sgml, tif, tiff, txt, wpd, xlsx, xml.
+        # See regulations.gov (click comment and above the file upload it shows valid file type...)
 
     pass
-
-
 
 
 if __name__=='__main__':
