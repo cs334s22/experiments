@@ -8,14 +8,15 @@ client = MongoClient(uri)
 
 db = client.mirrulations
 comments = db.comments
-total_count = len(list(comments.find({"data.attributes.comment": {"$regex": "attach", "$options": "i"}},{"data.id": 1})))
+cursor = comments.find({"$or": [{ "data.attributes.comment": {"$regex": "attach", "$options": "i"}}, {"data.attributes.comment": None}, { "data.attributes.comment": {"$regex": "document", "$options": "i"}}]}, {"data.id": 1, "data.relationships.attachments.links.self": 1})
+total_count = len(list(cursor))
 
 
 def get_comment_ids():
     count = 0
     with open('comment_ids.json', 'w') as file:
         file.write('[')
-        for comment in comments.find({"$or": [{ "data.attributes.comment": {"$regex": "attach", "$options": "i"}}, {"data.attributes.comment": null}, { "data.attributes.comment": {"$regex": "document", "$options": "i"}}]}, {"data.id": 1, "data.relationships.attachments.links.self": 1}):
+        for comment in cursor:
             # $options : i --> ignores case sensitivity
             # $regex --> Find where the value that "contains" the following string
             count += 1
