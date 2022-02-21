@@ -1,0 +1,1578 @@
+[
+  {
+    _id: ObjectId("610d93fe346bee7cb5e849eb"),
+    data: {
+      id: 'NCUA-2021-0112',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'effectiveDate',
+            label: 'Effective Date',
+            tooltip: 'Date of Vote'
+          },
+          {
+            name: 'abstract',
+            label: 'Description',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Docket Subject, General Info, Related To, Summary."
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T14:57:23Z',
+        dkAbstract: 'Proposed Merger of Northland Community Credit Union located in Gladstone, MO with and into CSD Credit Union located in Kansas City, MO.  If you decide to submit comments, you are attesting to NCUA that you are a current member or are part of the management team of the proposed merging credit union.  Your name will be posted with your comments.  Please do not include any personally identifiable information in your comments or attachments.  We will post only information entered in the comments section, not attachments. ',
+        agencyId: 'NCUA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Proposed Merger of Northland Community Credit Union located in Gladstone, MO with and into CSD Credit Union located in Kansas City, MO.',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: '2021-09-22T04:00:00Z',
+        objectId: '0b00006484c3224e'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/NCUA-2021-0112' }
+    }
+  },
+  {
+    _id: ObjectId("610d93fe346bee7cb5e849ec"),
+    data: {
+      id: 'CDC-2021-0077',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T14:22:01Z',
+        dkAbstract: null,
+        agencyId: 'CDC',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: '0920-1314 – Understanding the Needs of Ovarian Cancer Survivors – NCCDPHP – Extension',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c0a625'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/CDC-2021-0077' }
+    }
+  },
+  {
+    _id: ObjectId("610d93ff346bee7cb5e849ed"),
+    data: {
+      id: 'ONDCP-2021-0001',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T13:05:23Z',
+        dkAbstract: null,
+        agencyId: 'ONDCP',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Request for Information: Application of Equity in U.S. National Drug Control Policy',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c31a8f'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/ONDCP-2021-0001'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610d93ff346bee7cb5e849ee"),
+    data: {
+      id: 'NHTSA-2021-0053',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'category',
+            label: 'Disposition',
+            tooltip: 'An agency specific docket category indicating the status of a regulatory action.'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T13:00:45Z',
+        dkAbstract: null,
+        agencyId: 'NHTSA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Corporate Average Fuel Economy Standards for MYs 2024 – 2026',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: 'Not Assigned',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: 'Pending',
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484bd44e3'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/NHTSA-2021-0053'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849ef"),
+    data: {
+      id: 'PTO-C-2021-0036',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T11:52:00Z',
+        dkAbstract: null,
+        agencyId: 'PTO',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'USPTO FY 21 Performance Review Board',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484b87ad5'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/PTO-C-2021-0036'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849f0"),
+    data: {
+      id: 'FDA-2021-V-0817',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'abstract',
+            label: 'General Information',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Description, Docket Subject, Related To, Summary."
+          },
+          {
+            name: 'generic',
+            label: 'Docket Item Code',
+            tooltip: 'An agency specific code that identifies the type of document that established the docket (regulatory action).'
+          },
+          {
+            name: 'program',
+            label: 'Center',
+            tooltip: 'The agency specific program associated with the docket (regulatory action); equivalents: Docket Item Code,  Location.'
+          },
+          {
+            name: 'field2',
+            label: 'Docket Status',
+            tooltip: "Used to Identity that a Docket's Status is Open or Closed"
+          },
+          {
+            name: 'shortTitle',
+            label: 'Short Title',
+            tooltip: "A combination of letters and or numbers assigned to an agency's regulatory action for purposes of brevity."
+          }
+        ],
+        keywords: [
+          'OPEN',
+          '86.4W(1.8W*48pcs)',
+          '100.8W(4.2W*24pcs)',
+          '499.2W (5.2W*96 pcs)',
+          '635nm-647nm',
+          '459nm-471nm',
+          '449nm-461nm',
+          'Audio/Video Environments',
+          'CDRH',
+          'Variance',
+          'Laser Light Show'
+        ],
+        modifyDate: '2021-08-06T11:49:53Z',
+        dkAbstract: 'OPEN ',
+        agencyId: 'FDA',
+        program: 'CDRH',
+        shortTitle: 'Laser Light Show ',
+        subType2: null,
+        title: 'Laser Light Show',
+        generic: 'V',
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: 'OPEN',
+        effectiveDate: null,
+        objectId: '0b00006484c15095'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/FDA-2021-V-0817'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849f1"),
+    data: {
+      id: 'USCG-2021-0610',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T11:49:09Z',
+        dkAbstract: null,
+        agencyId: 'USCG',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'USCG Placeholder Docket',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: 'Not Assigned',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484bee793'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/USCG-2021-0610' }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849f2"),
+    data: {
+      id: 'USCG-2021-0146',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'shortTitle',
+            label: 'Action Office',
+            tooltip: 'Refers to a specific office within an agency that issues the docket (regulatory action).'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T11:46:22Z',
+        dkAbstract: null,
+        agencyId: 'USCG',
+        program: null,
+        shortTitle: 'District',
+        subType2: null,
+        title: 'Special Local Regulation; Delaware Bay, Lower Township, NJ',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: '1625-AA08',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484a5992e'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/USCG-2021-0146' }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849f3"),
+    data: {
+      id: 'NOAA-NMFS-2021-0056',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T11:38:43Z',
+        dkAbstract: null,
+        agencyId: 'NOAA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Atlantic Highly Migratory Species; 2022 Atlantic Shark Commercial Fishing Year',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: 'Not Assigned',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484b4f90b'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/NOAA-NMFS-2021-0056'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849f4"),
+    data: {
+      id: 'USCG-2021-0162',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'shortTitle',
+            label: 'Action Office',
+            tooltip: 'Refers to a specific office within an agency that issues the docket (regulatory action).'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T11:38:14Z',
+        dkAbstract: null,
+        agencyId: 'USCG',
+        program: null,
+        shortTitle: 'District',
+        subType2: null,
+        title: 'Special Local Regulations; Marine Events Within the Fifth Coast Guard District',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: 'Not Assigned',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484a596b9'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/USCG-2021-0162' }
+    }
+  },
+  {
+    _id: ObjectId("610d9401346bee7cb5e849f5"),
+    data: {
+      id: 'HUD-2021-0044',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T11:30:38Z',
+        dkAbstract: null,
+        agencyId: 'HUD',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'FR-6277-N-01 Fair Market Rents for the Housing Choice Voucher Program, Moderate Rehabilitation Single Room Occupancy Program, and Other Programs Fiscal Year 2022',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c30ad8'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/HUD-2021-0044' }
+    }
+  },
+  {
+    _id: ObjectId("610d9401346bee7cb5e849f6"),
+    data: {
+      id: 'FAA-2021-0600',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'category',
+            label: 'Disposition',
+            tooltip: 'An agency specific docket category indicating the status of a regulatory action.'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T10:58:06Z',
+        dkAbstract: 'Airspace Rules',
+        agencyId: 'FAA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Remove Surface E Airspace and Amend E5 Airspace, Concord, New Hampshire',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: '2120-AA66',
+        organization: null,
+        legacyId: null,
+        subType: 'Airspace Rules',
+        category: 'Pending',
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484be4abd'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/FAA-2021-0600' }
+    }
+  },
+  {
+    _id: ObjectId("610d9401346bee7cb5e849f7"),
+    data: {
+      id: 'FAA-2021-0654',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'category',
+            label: 'Disposition',
+            tooltip: 'An agency specific docket category indicating the status of a regulatory action.'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T10:48:23Z',
+        dkAbstract: null,
+        agencyId: 'FAA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: '2120-NM-XXXX',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: '2120-AA64',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: 'Pending',
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c1b4b9'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/FAA-2021-0654' }
+    }
+  },
+  {
+    _id: ObjectId("610de4a0346bee7cb5e849f8"),
+    data: {
+      id: 'NOAA-NMFS-2021-0064',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T15:46:18Z',
+        dkAbstract: 'NMFS has received a request from the U.S. Navy (Navy) to take marine mammals incidental to training and testing activities conducted in the Point Mugu Sea Range (PMSR) Study Area. Pursuant to the Marine Mammal Protection Act (MMPA), NMFS is requesting comments on its proposal to issue regulations and subsequent Letter of Authorization (LOA) to the Navy to incidentally take marine mammals during the specified activities. NMFS will consider public comments prior to issuing any final rule and making final decisions on the issuance of the requested LOA. Agency responses to public comments will be summarized in the notice of the final decision in the final rule. The Navy’s activities qualify as military readiness activities pursuant to the MMPA, as amended by the National Defense Authorization Act for Fiscal Year 2004 (2004 NDAA).',
+        agencyId: 'NOAA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to the U.S. Navy Training and Testing Activities in the Point Mugu Sea Range Study Area',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: '0648-BK07',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484bc563a'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/NOAA-NMFS-2021-0064'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610de656346bee7cb5e85124"),
+    data: {
+      id: 'DOT-OST-2021-0089',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'abstract',
+            label: 'Docket Subject',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Description, General Info, Related To, Summary."
+          },
+          {
+            name: 'subType2',
+            label: 'Sub Type Level 2',
+            tooltip: 'A secondary attribute level that characterizes a specific docket (regulatory action) more closer than its docekt subtype.'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T15:43:23Z',
+        dkAbstract: 'U.S-Europe',
+        agencyId: 'DOT',
+        program: null,
+        shortTitle: null,
+        subType2: 'Foreign Air Carrier Permit',
+        title: 'Titan Airways Malta Limited - Foreign Air Carrier Permit/Exemption - U.S.-Europe',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: 'License',
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c32538'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/DOT-OST-2021-0089'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610de656346bee7cb5e85125"),
+    data: {
+      id: 'NCUA-2021-0115',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'effectiveDate',
+            label: 'Effective Date',
+            tooltip: 'Date of Vote'
+          },
+          {
+            name: 'abstract',
+            label: 'Description',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Docket Subject, General Info, Related To, Summary."
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T15:37:49Z',
+        dkAbstract: 'Proposed Merger of Texas Federal Credit Union located in Dallas, TX with and into Texas Trust Credit Union located in Arlington, TX.  If you decide to submit comments, you are attesting to NCUA that you are a current member or are part of the management team of the proposed merging credit union.  Your name will be posted with your comments.  Please do not include any personally identifiable information in your comments or attachments.  We will post only information entered in the comments section, not attachments. ',
+        agencyId: 'NCUA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Proposed Merger of Texas Federal Credit Union located in Dallas, TX with and into Texas Trust Credit Union located in Arlington, TX.',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: '2021-09-29T04:00:00Z',
+        objectId: '0b00006484c31a56'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/NCUA-2021-0115' }
+    }
+  },
+  {
+    _id: ObjectId("610de657346bee7cb5e85126"),
+    data: {
+      id: 'NCUA-2021-0114',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'effectiveDate',
+            label: 'Effective Date',
+            tooltip: 'Date of Vote'
+          },
+          {
+            name: 'abstract',
+            label: 'Description',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Docket Subject, General Info, Related To, Summary."
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T15:27:09Z',
+        dkAbstract: 'Proposed Merger of McNeese Federal Credit Union located in Lake Charles, LA with and into Calcasieu Teachers and Employees Credit Union located in Lake Charles, LA.  If you decide to submit comments, you are attesting to NCUA that you are a current member or are part of the management team of the proposed merging credit union.  Your name will be posted with your comments.  Please do not include any personally identifiable information in your comments or attachments.  We will post only information entered in the comments section, not attachments. ',
+        agencyId: 'NCUA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Proposed Merger of McNeese Federal Credit Union located in Lake Charles, LA with and into Calcasieu Teachers and Employees Credit Union located in Lake Charles, LA.',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: '2021-10-05T04:00:00Z',
+        objectId: '0b00006484c32534'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/NCUA-2021-0114' }
+    }
+  },
+  {
+    _id: ObjectId("61112eeda8397e568f56b38e"),
+    data: {
+      id: 'APHIS-2021-0011',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: [ 'USDA', 'agriculture' ],
+        modifyDate: '2021-08-09T09:06:32Z',
+        dkAbstract: null,
+        agencyId: 'APHIS',
+        program: 'Plant Protection and Quarantine',
+        shortTitle: null,
+        subType2: null,
+        title: 'Addition of Croatia to the List of Regions Affected with Highly Pathogenic Avian Influenza',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: 'Domestic Animal Health Programs',
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484a5b337'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/APHIS-2021-0011'
+      }
+    }
+  },
+  {
+    _id: ObjectId("61112eeea8397e568f56b38f"),
+    data: {
+      id: 'FDA-2021-N-0843',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'abstract',
+            label: 'General Information',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Description, Docket Subject, Related To, Summary."
+          },
+          {
+            name: 'generic',
+            label: 'Docket Item Code',
+            tooltip: 'An agency specific code that identifies the type of document that established the docket (regulatory action).'
+          },
+          {
+            name: 'program',
+            label: 'Center',
+            tooltip: 'The agency specific program associated with the docket (regulatory action); equivalents: Docket Item Code,  Location.'
+          },
+          {
+            name: 'field2',
+            label: 'Docket Status',
+            tooltip: "Used to Identity that a Docket's Status is Open or Closed"
+          },
+          {
+            name: 'shortTitle',
+            label: 'Short Title',
+            tooltip: "A combination of letters and or numbers assigned to an agency's regulatory action for purposes of brevity."
+          }
+        ],
+        keywords: [
+          'Notice',
+          'CDER',
+          'OPEN',
+          'Request for Information and Comments',
+          'and Drug Administration',
+          'Versus United States Food',
+          'Genus Medical Technologies LLC'
+        ],
+        modifyDate: '2021-08-09T09:06:09Z',
+        dkAbstract: 'OPEN',
+        agencyId: 'FDA',
+        program: 'CDER',
+        shortTitle: 'Genus Medical Technologies LLC Versus United States Food and Drug Administration; Request for Information and Comments',
+        subType2: null,
+        title: 'Genus Medical Technologies LLC Versus United States Food and Drug Administration; Request for Information and Comments',
+        generic: 'N',
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: 'OPEN',
+        effectiveDate: null,
+        objectId: '0b00006484c17fa4'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/FDA-2021-N-0843'
+      }
+    }
+  },
+  {
+    _id: ObjectId("6111305da8397e568f56b9ab"),
+    data: {
+      id: 'ED-2021-SCC-0120',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-09T09:04:00Z',
+        dkAbstract: null,
+        agencyId: 'ED',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Servicemembers Civil Relief Act (SCRA): Interest Rate Limitation Request',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c265ca'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/ED-2021-SCC-0120'
+      }
+    }
+  }
+]
+Type "it" for more
+mirrulations> db.dockets.find().limit(100).pretty()
+[
+  {
+    _id: ObjectId("610d93fe346bee7cb5e849eb"),
+    data: {
+      id: 'NCUA-2021-0112',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'effectiveDate',
+            label: 'Effective Date',
+            tooltip: 'Date of Vote'
+          },
+          {
+            name: 'abstract',
+            label: 'Description',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Docket Subject, General Info, Related To, Summary."
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T14:57:23Z',
+        dkAbstract: 'Proposed Merger of Northland Community Credit Union located in Gladstone, MO with and into CSD Credit Union located in Kansas City, MO.  If you decide to submit comments, you are attesting to NCUA that you are a current member or are part of the management team of the proposed merging credit union.  Your name will be posted with your comments.  Please do not include any personally identifiable information in your comments or attachments.  We will post only information entered in the comments section, not attachments. ',
+        agencyId: 'NCUA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Proposed Merger of Northland Community Credit Union located in Gladstone, MO with and into CSD Credit Union located in Kansas City, MO.',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: '2021-09-22T04:00:00Z',
+        objectId: '0b00006484c3224e'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/NCUA-2021-0112' }
+    }
+  },
+  {
+    _id: ObjectId("610d93fe346bee7cb5e849ec"),
+    data: {
+      id: 'CDC-2021-0077',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T14:22:01Z',
+        dkAbstract: null,
+        agencyId: 'CDC',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: '0920-1314 – Understanding the Needs of Ovarian Cancer Survivors – NCCDPHP – Extension',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c0a625'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/CDC-2021-0077' }
+    }
+  },
+  {
+    _id: ObjectId("610d93ff346bee7cb5e849ed"),
+    data: {
+      id: 'ONDCP-2021-0001',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T13:05:23Z',
+        dkAbstract: null,
+        agencyId: 'ONDCP',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Request for Information: Application of Equity in U.S. National Drug Control Policy',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c31a8f'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/ONDCP-2021-0001'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610d93ff346bee7cb5e849ee"),
+    data: {
+      id: 'NHTSA-2021-0053',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'category',
+            label: 'Disposition',
+            tooltip: 'An agency specific docket category indicating the status of a regulatory action.'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T13:00:45Z',
+        dkAbstract: null,
+        agencyId: 'NHTSA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Corporate Average Fuel Economy Standards for MYs 2024 – 2026',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: 'Not Assigned',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: 'Pending',
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484bd44e3'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/NHTSA-2021-0053'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849ef"),
+    data: {
+      id: 'PTO-C-2021-0036',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T11:52:00Z',
+        dkAbstract: null,
+        agencyId: 'PTO',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'USPTO FY 21 Performance Review Board',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484b87ad5'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/PTO-C-2021-0036'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849f0"),
+    data: {
+      id: 'FDA-2021-V-0817',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'abstract',
+            label: 'General Information',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Description, Docket Subject, Related To, Summary."
+          },
+          {
+            name: 'generic',
+            label: 'Docket Item Code',
+            tooltip: 'An agency specific code that identifies the type of document that established the docket (regulatory action).'
+          },
+          {
+            name: 'program',
+            label: 'Center',
+            tooltip: 'The agency specific program associated with the docket (regulatory action); equivalents: Docket Item Code,  Location.'
+          },
+          {
+            name: 'field2',
+            label: 'Docket Status',
+            tooltip: "Used to Identity that a Docket's Status is Open or Closed"
+          },
+          {
+            name: 'shortTitle',
+            label: 'Short Title',
+            tooltip: "A combination of letters and or numbers assigned to an agency's regulatory action for purposes of brevity."
+          }
+        ],
+        keywords: [
+          'OPEN',
+          '86.4W(1.8W*48pcs)',
+          '100.8W(4.2W*24pcs)',
+          '499.2W (5.2W*96 pcs)',
+          '635nm-647nm',
+          '459nm-471nm',
+          '449nm-461nm',
+          'Audio/Video Environments',
+          'CDRH',
+          'Variance',
+          'Laser Light Show'
+        ],
+        modifyDate: '2021-08-06T11:49:53Z',
+        dkAbstract: 'OPEN ',
+        agencyId: 'FDA',
+        program: 'CDRH',
+        shortTitle: 'Laser Light Show ',
+        subType2: null,
+        title: 'Laser Light Show',
+        generic: 'V',
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: 'OPEN',
+        effectiveDate: null,
+        objectId: '0b00006484c15095'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/FDA-2021-V-0817'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849f1"),
+    data: {
+      id: 'USCG-2021-0610',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T11:49:09Z',
+        dkAbstract: null,
+        agencyId: 'USCG',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'USCG Placeholder Docket',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: 'Not Assigned',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484bee793'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/USCG-2021-0610' }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849f2"),
+    data: {
+      id: 'USCG-2021-0146',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'shortTitle',
+            label: 'Action Office',
+            tooltip: 'Refers to a specific office within an agency that issues the docket (regulatory action).'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T11:46:22Z',
+        dkAbstract: null,
+        agencyId: 'USCG',
+        program: null,
+        shortTitle: 'District',
+        subType2: null,
+        title: 'Special Local Regulation; Delaware Bay, Lower Township, NJ',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: '1625-AA08',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484a5992e'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/USCG-2021-0146' }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849f3"),
+    data: {
+      id: 'NOAA-NMFS-2021-0056',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T11:38:43Z',
+        dkAbstract: null,
+        agencyId: 'NOAA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Atlantic Highly Migratory Species; 2022 Atlantic Shark Commercial Fishing Year',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: 'Not Assigned',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484b4f90b'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/NOAA-NMFS-2021-0056'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610d9400346bee7cb5e849f4"),
+    data: {
+      id: 'USCG-2021-0162',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'shortTitle',
+            label: 'Action Office',
+            tooltip: 'Refers to a specific office within an agency that issues the docket (regulatory action).'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T11:38:14Z',
+        dkAbstract: null,
+        agencyId: 'USCG',
+        program: null,
+        shortTitle: 'District',
+        subType2: null,
+        title: 'Special Local Regulations; Marine Events Within the Fifth Coast Guard District',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: 'Not Assigned',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484a596b9'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/USCG-2021-0162' }
+    }
+  },
+  {
+    _id: ObjectId("610d9401346bee7cb5e849f5"),
+    data: {
+      id: 'HUD-2021-0044',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T11:30:38Z',
+        dkAbstract: null,
+        agencyId: 'HUD',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'FR-6277-N-01 Fair Market Rents for the Housing Choice Voucher Program, Moderate Rehabilitation Single Room Occupancy Program, and Other Programs Fiscal Year 2022',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c30ad8'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/HUD-2021-0044' }
+    }
+  },
+  {
+    _id: ObjectId("610d9401346bee7cb5e849f6"),
+    data: {
+      id: 'FAA-2021-0600',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'category',
+            label: 'Disposition',
+            tooltip: 'An agency specific docket category indicating the status of a regulatory action.'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T10:58:06Z',
+        dkAbstract: 'Airspace Rules',
+        agencyId: 'FAA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Remove Surface E Airspace and Amend E5 Airspace, Concord, New Hampshire',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: '2120-AA66',
+        organization: null,
+        legacyId: null,
+        subType: 'Airspace Rules',
+        category: 'Pending',
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484be4abd'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/FAA-2021-0600' }
+    }
+  },
+  {
+    _id: ObjectId("610d9401346bee7cb5e849f7"),
+    data: {
+      id: 'FAA-2021-0654',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'category',
+            label: 'Disposition',
+            tooltip: 'An agency specific docket category indicating the status of a regulatory action.'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T10:48:23Z',
+        dkAbstract: null,
+        agencyId: 'FAA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: '2120-NM-XXXX',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: '2120-AA64',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: 'Pending',
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c1b4b9'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/FAA-2021-0654' }
+    }
+  },
+  {
+    _id: ObjectId("610de4a0346bee7cb5e849f8"),
+    data: {
+      id: 'NOAA-NMFS-2021-0064',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-06T15:46:18Z',
+        dkAbstract: 'NMFS has received a request from the U.S. Navy (Navy) to take marine mammals incidental to training and testing activities conducted in the Point Mugu Sea Range (PMSR) Study Area. Pursuant to the Marine Mammal Protection Act (MMPA), NMFS is requesting comments on its proposal to issue regulations and subsequent Letter of Authorization (LOA) to the Navy to incidentally take marine mammals during the specified activities. NMFS will consider public comments prior to issuing any final rule and making final decisions on the issuance of the requested LOA. Agency responses to public comments will be summarized in the notice of the final decision in the final rule. The Navy’s activities qualify as military readiness activities pursuant to the MMPA, as amended by the National Defense Authorization Act for Fiscal Year 2004 (2004 NDAA).',
+        agencyId: 'NOAA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to the U.S. Navy Training and Testing Activities in the Point Mugu Sea Range Study Area',
+        generic: null,
+        field1: null,
+        docketType: 'Rulemaking',
+        petitionNbr: null,
+        rin: '0648-BK07',
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484bc563a'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/NOAA-NMFS-2021-0064'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610de656346bee7cb5e85124"),
+    data: {
+      id: 'DOT-OST-2021-0089',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'abstract',
+            label: 'Docket Subject',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Description, General Info, Related To, Summary."
+          },
+          {
+            name: 'subType2',
+            label: 'Sub Type Level 2',
+            tooltip: 'A secondary attribute level that characterizes a specific docket (regulatory action) more closer than its docekt subtype.'
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T15:43:23Z',
+        dkAbstract: 'U.S-Europe',
+        agencyId: 'DOT',
+        program: null,
+        shortTitle: null,
+        subType2: 'Foreign Air Carrier Permit',
+        title: 'Titan Airways Malta Limited - Foreign Air Carrier Permit/Exemption - U.S.-Europe',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: 'License',
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c32538'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/DOT-OST-2021-0089'
+      }
+    }
+  },
+  {
+    _id: ObjectId("610de656346bee7cb5e85125"),
+    data: {
+      id: 'NCUA-2021-0115',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'effectiveDate',
+            label: 'Effective Date',
+            tooltip: 'Date of Vote'
+          },
+          {
+            name: 'abstract',
+            label: 'Description',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Docket Subject, General Info, Related To, Summary."
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T15:37:49Z',
+        dkAbstract: 'Proposed Merger of Texas Federal Credit Union located in Dallas, TX with and into Texas Trust Credit Union located in Arlington, TX.  If you decide to submit comments, you are attesting to NCUA that you are a current member or are part of the management team of the proposed merging credit union.  Your name will be posted with your comments.  Please do not include any personally identifiable information in your comments or attachments.  We will post only information entered in the comments section, not attachments. ',
+        agencyId: 'NCUA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Proposed Merger of Texas Federal Credit Union located in Dallas, TX with and into Texas Trust Credit Union located in Arlington, TX.',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: '2021-09-29T04:00:00Z',
+        objectId: '0b00006484c31a56'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/NCUA-2021-0115' }
+    }
+  },
+  {
+    _id: ObjectId("610de657346bee7cb5e85126"),
+    data: {
+      id: 'NCUA-2021-0114',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'effectiveDate',
+            label: 'Effective Date',
+            tooltip: 'Date of Vote'
+          },
+          {
+            name: 'abstract',
+            label: 'Description',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Docket Subject, General Info, Related To, Summary."
+          }
+        ],
+        keywords: null,
+        modifyDate: '2021-08-06T15:27:09Z',
+        dkAbstract: 'Proposed Merger of McNeese Federal Credit Union located in Lake Charles, LA with and into Calcasieu Teachers and Employees Credit Union located in Lake Charles, LA.  If you decide to submit comments, you are attesting to NCUA that you are a current member or are part of the management team of the proposed merging credit union.  Your name will be posted with your comments.  Please do not include any personally identifiable information in your comments or attachments.  We will post only information entered in the comments section, not attachments. ',
+        agencyId: 'NCUA',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Proposed Merger of McNeese Federal Credit Union located in Lake Charles, LA with and into Calcasieu Teachers and Employees Credit Union located in Lake Charles, LA.',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: '2021-10-05T04:00:00Z',
+        objectId: '0b00006484c32534'
+      },
+      links: { self: 'https://api.regulations.gov/v4/dockets/NCUA-2021-0114' }
+    }
+  },
+  {
+    _id: ObjectId("61112eeda8397e568f56b38e"),
+    data: {
+      id: 'APHIS-2021-0011',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: [ 'USDA', 'agriculture' ],
+        modifyDate: '2021-08-09T09:06:32Z',
+        dkAbstract: null,
+        agencyId: 'APHIS',
+        program: 'Plant Protection and Quarantine',
+        shortTitle: null,
+        subType2: null,
+        title: 'Addition of Croatia to the List of Regions Affected with Highly Pathogenic Avian Influenza',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: 'Domestic Animal Health Programs',
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484a5b337'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/APHIS-2021-0011'
+      }
+    }
+  },
+  {
+    _id: ObjectId("61112eeea8397e568f56b38f"),
+    data: {
+      id: 'FDA-2021-N-0843',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [
+          {
+            name: 'abstract',
+            label: 'General Information',
+            tooltip: "Describes an agency's specific regulatory action; equivalents: Abstract, Description, Docket Subject, Related To, Summary."
+          },
+          {
+            name: 'generic',
+            label: 'Docket Item Code',
+            tooltip: 'An agency specific code that identifies the type of document that established the docket (regulatory action).'
+          },
+          {
+            name: 'program',
+            label: 'Center',
+            tooltip: 'The agency specific program associated with the docket (regulatory action); equivalents: Docket Item Code,  Location.'
+          },
+          {
+            name: 'field2',
+            label: 'Docket Status',
+            tooltip: "Used to Identity that a Docket's Status is Open or Closed"
+          },
+          {
+            name: 'shortTitle',
+            label: 'Short Title',
+            tooltip: "A combination of letters and or numbers assigned to an agency's regulatory action for purposes of brevity."
+          }
+        ],
+        keywords: [
+          'Notice',
+          'CDER',
+          'OPEN',
+          'Request for Information and Comments',
+          'and Drug Administration',
+          'Versus United States Food',
+          'Genus Medical Technologies LLC'
+        ],
+        modifyDate: '2021-08-09T09:06:09Z',
+        dkAbstract: 'OPEN',
+        agencyId: 'FDA',
+        program: 'CDER',
+        shortTitle: 'Genus Medical Technologies LLC Versus United States Food and Drug Administration; Request for Information and Comments',
+        subType2: null,
+        title: 'Genus Medical Technologies LLC Versus United States Food and Drug Administration; Request for Information and Comments',
+        generic: 'N',
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: 'OPEN',
+        effectiveDate: null,
+        objectId: '0b00006484c17fa4'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/FDA-2021-N-0843'
+      }
+    }
+  },
+  {
+    _id: ObjectId("6111305da8397e568f56b9ab"),
+    data: {
+      id: 'ED-2021-SCC-0120',
+      type: 'dockets',
+      attributes: {
+        displayProperties: [],
+        keywords: null,
+        modifyDate: '2021-08-09T09:04:00Z',
+        dkAbstract: null,
+        agencyId: 'ED',
+        program: null,
+        shortTitle: null,
+        subType2: null,
+        title: 'Servicemembers Civil Relief Act (SCRA): Interest Rate Limitation Request',
+        generic: null,
+        field1: null,
+        docketType: 'Nonrulemaking',
+        petitionNbr: null,
+        rin: null,
+        organization: null,
+        legacyId: null,
+        subType: null,
+        category: null,
+        field2: null,
+        effectiveDate: null,
+        objectId: '0b00006484c265ca'
+      },
+      links: {
+        self: 'https://api.regulations.gov/v4/dockets/ED-2021-SCC-0120'
+      }
+    }
+  }
+]

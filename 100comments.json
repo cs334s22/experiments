@@ -1,0 +1,1442 @@
+[
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e668"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0048',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0048'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b8954',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:21Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 3,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Karen M. Jayne, Environmental Attorney, Oklahoma State Department of Environmental Quality ',
+        trackingNbr: '800b8954',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0048/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0048/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e669"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0052',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0052'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b899e',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:21Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 5,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Curt Marshall, Chair of Enforcement and Compliance Committee, The State and Territorial Air Pollution Program Administrators (STAPPA) and the Association of Local Air Pollution Control Officials (ALAPCO)  ',
+        trackingNbr: '800b899e',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0052/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0052/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e66a"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0051',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0051'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b8987',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:21Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 3,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Michael R. Lake, Assistant Director, Air Pollution Control District, San Diego County Air Pollution Control District (District)  ',
+        trackingNbr: '800b8987',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0051/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0051/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e66b"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0053',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0053'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b89b5',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:21Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 2,
+        phone: null,
+        postedDate: '2005-03-11T05:00:00Z',
+        postmarkDate: '2005-03-11T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-11T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Terry Dressler, Air Pollution Control Officer, Santa Barbara County Air Pollution Control District (APCD) ',
+        trackingNbr: '800b89b5',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0053/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0053/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e66c"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0054',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0054'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b89ca',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:21Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 3,
+        phone: null,
+        postedDate: '2005-03-11T05:00:00Z',
+        postmarkDate: '2005-03-11T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-11T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Late Comment',
+        title: 'Comment submitted by Michael Villegas, Air Pollution Control Officer, Ventura County Air Pollution Control District (APCD) ',
+        trackingNbr: '800b89ca',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0054/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0054/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e66d"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0036',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0036'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: 'Duplicate document, please see OECA-2004-0024-0035.',
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: 'Duplicate document, please see OECA-2004-0024-0035.',
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b887f',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 4,
+        phone: null,
+        postedDate: '2005-03-04T05:00:00Z',
+        postmarkDate: '2005-03-04T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-04T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Larry F. Greene, Air Pollution Control Officer, Sacramento Metropolitan Air Quality Management District (AQMD) ',
+        trackingNbr: '800b887f',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0036/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0036/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e66e"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0031',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0031'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: 'To Whom it May Concern: <br/><br/>Attached for your consideration are comments on EPA&#39;s proposed information collection request (ICR) number 0107.08. The attached comments were originally submitted on August 2, 2004, however the comments either were not received by EPA, not received by the comment deadline, or were received but not acknowledged by EPA. <br/><br/>The WESTAR Council, representing the air program administrators from the 15 western states, reviewed the subject proposal and determined that the concerns expressed in our earlier comments were not addressed in the proposal. We therefore respectfully request that EPA review our previous comments and revise the proposal to address our concerns.<br/><br/>Thank you in advance for your consideration.<br/><br/>Dan Johnson<br/>Executive Director, WESTAR Council<br/>500 Union Street, Suite 640<br/>Seattle, WA 98033<br/><br/>djohnson@westar.org<br/>206-254-9145',
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b880e',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 3,
+        phone: null,
+        postedDate: '2005-02-18T05:00:00Z',
+        postmarkDate: null,
+        reasonWithdrawn: null,
+        receiveDate: '2005-02-18T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Dan Olson, President, Western States Air Resources Council (WESTAR)',
+        trackingNbr: '800b880e',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0031/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0031/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e66f"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0045',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0045'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: 'Please see the the following document numbers for the remaining comments; OECA-2004-0044 and OECA-2004-0046',
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: 'Please see the the following document numbers for the remaining comments; OECA-2004-0044 and OECA-2004-0046',
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b8928',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 2,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment Attachment',
+        title: 'Comment submitted by Glenn Shankle, Executive Director, Texas Commission on Environmental Quality',
+        trackingNbr: '800b8928',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0045/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0045/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e670"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0033',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0033'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b8842',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 3,
+        phone: null,
+        postedDate: '2005-03-03T05:00:00Z',
+        postmarkDate: '2005-03-03T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-03T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Michael Villegas, Air Pollution Control Officer, Ventura County Air Pollution Control District (APCD) ',
+        trackingNbr: '800b8842',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0033/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0033/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e671"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0044',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0044'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: 'Please see the the following document numbers for the remaining comments; OECA-2004-0045 and OECA-2004-0046',
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: 'Please see the the following document numbers for the remaining comments; OECA-2004-0045 and OECA-2004-0046',
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b891c',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 1,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Tangela Niemann, Intergovernmental Relations Division, on behalf of Glenn Shankle, Executive Director, Texas Commission on Environmental Quality',
+        trackingNbr: '800b891c',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0044/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0044/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e672"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0047',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0047'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b8946',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 1,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Karen M. Jayne, Environmental Attorney, Oklahoma State Department of Environmental Quality ',
+        trackingNbr: '800b8946',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0047/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0047/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e673"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0032',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0032'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: 'Duplicate Document, Please see OECA-2004-0024-0030.',
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: 'Duplicate Document, Please see OECA-2004-0024-0030.',
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b882c',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 2,
+        phone: null,
+        postedDate: '2005-02-25T05:00:00Z',
+        postmarkDate: '2005-02-25T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-02-25T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Tom Chapple, Director, Alaska Department of Environmental Conservation (DEC) ',
+        trackingNbr: '800b882c',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0032/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0032/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e674"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0042',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0042'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b88f3',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 5,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Curt Marshall, Chair of Enforcement and Compliance Committee on behalf of the State and Territorial Air Pollution Program Administrators (STAPPA) and the Association of Local Air Pollution Control Officials (ALAPCO)',
+        trackingNbr: '800b88f3',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0042/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0042/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e675"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0030',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0030'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b8800',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 3,
+        phone: null,
+        postedDate: '2005-02-14T05:00:00Z',
+        postmarkDate: '2005-02-14T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-02-14T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Tom Chapple, Director, Alaska Department of Environmental Conservation (DEC)  ',
+        trackingNbr: '800b8800',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0030/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0030/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e18e0bd631edd99e676"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0046',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0046'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: 'Please see the the following document numbers for the remaining comments: OECA-2004-0044 and OECA-2004-0045',
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: 'Please see the the following document numbers for the remaining comments: OECA-2004-0044 and OECA-2004-0045',
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b8935',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 2,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Glenn Shankle, Executive Director, Texas Commission on Environmental Quality',
+        trackingNbr: '800b8935',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0046/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0046/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e19e0bd631edd99e677"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0041',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0041'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: 'The attached comment letter is submitted on behalf of <br/>The Environmental Integrity Project <br/>State Environmental Leadership Program<br/>1000 Friends of Maryland<br/>Clean Wisconsin<br/>Environmental League of Massachusetts<br/>Conservation Council of North Carolina <br/>Alabama Environmental Council<br/>Michigan Environmental Council<br/>Natural Resources Council of Maine<br/>Iowa, Environmental Council<br/>New York Public Interest Research Group<br/><br/>This attached comment is a duplicate to OECA-2004-0024-0038.',
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: 'This attached comment is a duplicate to OECA-2004-0024-0038.',
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b88e6',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 5,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Eric Schaeffer, Director, Environmental Integrity Project (EIP), et.al',
+        trackingNbr: '800b88e6',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0041/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0041/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e19e0bd631edd99e678"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0034',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0034'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b885d',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 2,
+        phone: null,
+        postedDate: '2005-03-04T05:00:00Z',
+        postmarkDate: '2005-03-04T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-04T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Terry Dressler, Air Pollution Control Officer, Santa Barbara County Air Pollution Control District (APCD)',
+        trackingNbr: '800b885d',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0034/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0034/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e1ce0bd631edd99e679"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0043',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0043'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: null,
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b8909',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 3,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by John A. Paul, Supervisor, Regional Air Pollution Control Authority--Dayton, Ohio,  RAPCA ',
+        trackingNbr: '800b8909',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0043/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0043/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e1ce0bd631edd99e67a"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0040',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0040'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: 'Signed copy will be mailed by USPS<br/><br/>Duplicate document. Please see OECA-2004-0024-0039 ',
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: 'Duplicate document. Please see OECA-2004-0024-0039 ',
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b88cf',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 5,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Robert Sliwinski, Director, Bureau of Stationary Sources, New York State Department of Environmental Conservation  ',
+        trackingNbr: '800b88cf',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0040/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0040/attachments'
+          }
+        }
+      }
+    }
+  },
+  {
+    _id: ObjectId("60d56e1ce0bd631edd99e67b"),
+    data: {
+      id: 'EPA-HQ-OECA-2004-0024-0039',
+      type: 'comments',
+      links: {
+        self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0039'
+      },
+      attributes: {
+        commentOn: '09000064800b858d',
+        commentOnDocumentId: null,
+        duplicateComments: 1,
+        address1: null,
+        address2: null,
+        agencyId: 'EPA',
+        city: null,
+        category: null,
+        comment: 'Signed original is',
+        country: null,
+        displayProperties: [
+          {
+            name: 'pageCount',
+            label: 'Page Count',
+            tooltip: 'Number of pages In the content file'
+          }
+        ],
+        docAbstract: null,
+        docketId: 'EPA-HQ-OECA-2004-0024',
+        documentType: 'Public Submission',
+        email: null,
+        fax: null,
+        field1: null,
+        field2: null,
+        fileFormats: null,
+        firstName: null,
+        govAgency: null,
+        govAgencyType: null,
+        objectId: '09000064800b88c2',
+        lastName: null,
+        legacyId: null,
+        modifyDate: '2006-09-02T12:39:20Z',
+        organization: null,
+        originalDocumentId: '',
+        pageCount: 5,
+        phone: null,
+        postedDate: '2005-03-07T05:00:00Z',
+        postmarkDate: '2005-03-07T05:00:00Z',
+        reasonWithdrawn: null,
+        receiveDate: '2005-03-07T05:00:00Z',
+        restrictReason: null,
+        restrictReasonType: null,
+        stateProvinceRegion: null,
+        submitterRep: null,
+        submitterRepAddress: null,
+        submitterRepCityState: null,
+        subtype: 'Public Comment',
+        title: 'Comment submitted by Robert Sliwinski, Director, Bureau of Stationary Sources, New York State Department of Environmental Conservation  (Department)',
+        trackingNbr: '800b88c2',
+        withdrawn: false,
+        zip: null,
+        openForComment: false
+      },
+      relationships: {
+        attachments: {
+          links: {
+            self: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0039/relationships/attachments',
+            related: 'https://api.regulations.gov/v4/comments/EPA-HQ-OECA-2004-0024-0039/attachments'
+          }
+        }
+      }
+    }
+  }
+]
