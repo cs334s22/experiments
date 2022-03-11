@@ -1,0 +1,5 @@
+requests
+flask
+typing_extensions
+pdfplumber
+argparse
