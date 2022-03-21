@@ -1,0 +1,9 @@
+.DS_Store
+.venv
+.gitignore
+.env
+mirrulations.zip
+mirrulations
+comments
+comments.bson
+*.json
