@@ -2,10 +2,10 @@
 .venv
 .gitignore
 .env
+comment_ids.json
 mirrulations.zip
 mirrulations
 comments
 comments.bson
-*.json
 related_response
 downloads
