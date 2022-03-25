@@ -1,6 +1,6 @@
 # Inserting Comments into Local Docker Mongo Database
 
-You will need to download a version of `comments.bson`
+You will need to download a version of `comments.bson` (You probably do not want the ~37GB version)
 
 Use `docker compose up -d <container name>` to start the mongo container, this should be `mongo` (or you can use `./devup` and start all of the containers)
 
