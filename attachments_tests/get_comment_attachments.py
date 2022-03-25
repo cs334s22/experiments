@@ -17,7 +17,6 @@ Otherwise, you might accidentally upload all of the files that are created
 import json
 import os
 import requests
-import urllib
 from dotenv import load_dotenv
 from pymongo import MongoClient
 
@@ -55,7 +54,7 @@ def get_download_response(read_dir, write_dir):
             data = json.load(comment_related)
             related = data['data']['relationships']['attachments']['links']['related']
             response_from_related = requests.get(related, params=params)
-            with open(f'{write_dir}/response_{filename[:-5]}.json', 'w') as related_response_file: # need a better way to name the files
+            with open(f'{write_dir}/response_{filename}', 'w') as related_response_file: # need a better way to name the files
                 related_response_file.write(json.dumps(response_from_related.json())) # This is what contains the links to download the actual attachment
 
 
@@ -75,12 +74,9 @@ def download_attachments(read_dir, write_dir):
             data = json.load(related_response)
             downloads = data['data'][0]['attributes']['fileFormats']
             for i,download in enumerate(downloads):
-                urllib.request.urlretrieve(download['fileUrl'], f'{write_dir}/download_{filename[:-5]}_{i}.{download["format"]}')
-
-                # TODO: this uses requests, but there were issues with writing the file.
-                # response = requests.get(download['fileUrl'])
-                # with open(f'{write_dir}/download_{filename[:-5]}_{i}.{download["format"]}', 'w') as download: 
-                #     download.write(response.content)
+                response = requests.get(download['fileUrl'])
+                with open(f'{write_dir}/download_{filename[:-5]}_{i}.{download["format"]}', 'w') as download: 
+                    download.write(str(response.content))
 
 
 if __name__ == '__main__':
