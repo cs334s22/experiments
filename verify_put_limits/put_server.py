@@ -1,7 +1,10 @@
 from flask import Flask, request, json, jsonify
+import os
+from werkzeug.utils import secure_filename
 
 def create_server():
     app = Flask(__name__)
+    app.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'put_downloads')
 
     @app.route('/')
     def hello_world():
@@ -9,10 +12,10 @@ def create_server():
         
     @app.route('/put_data', methods=['PUT'])
     def put_data():
-        for i,file in enumerate(request.files):
-            with open(f'put_downloads/file_{i}', 'w') as f:
-                f.write(file) # TODO: solve writing issues
-        return request.data
+        files = request.files.getlist('file') # All the files must have 'file'
+        for file in files:
+            file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))
+        return 'OK'
 
     return app
 
