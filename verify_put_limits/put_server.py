@@ -10,7 +10,7 @@ def create_server():
     @app.route('/put_data', methods=['PUT'])
     def put_data():
         for i,file in enumerate(request.files):
-            with open(f'downloads/file_{i}', 'w') as f:
+            with open(f'put_downloads/file_{i}', 'w') as f:
                 f.write(file) # TODO: solve writing issues
         return request.data
 
