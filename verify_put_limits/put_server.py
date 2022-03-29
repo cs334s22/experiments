@@ -1,6 +1,5 @@
-from flask import Flask, request, json, jsonify
+from flask import Flask, request
 import os
-from werkzeug.utils import secure_filename
 
 def create_server():
     app = Flask(__name__)
