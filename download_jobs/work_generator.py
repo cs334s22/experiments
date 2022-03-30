@@ -1,7 +1,6 @@
 import os
 import time
 import dotenv
-import redis
 from search_iterator import SearchIterator
 from results_processor import ResultsProcessor
 from regulations_api import RegulationsAPI
@@ -10,24 +9,31 @@ from data_storage import DataStorage
 
 class WorkGenerator:
 
-    def __init__(self, job_queue, api, datastorage):
-        self.job_queue = job_queue
+    def __init__(self, api, datastorage):
+        # self.job_queue = job_queue
         self.api = api
-        self.processor = ResultsProcessor(job_queue, datastorage)
+        # self.processor = ResultsProcessor(job_queue, datastorage)
+        self.datastorage = datastorage
 
     def download(self, endpoint):
         # Gets the timestamp of the last known job in queue
-        last_timestamp = self.job_queue.get_last_timestamp_string(endpoint)
+        # last_timestamp = self.job_queue.get_last_timestamp_string(endpoint)
+        last_timestamp = '1972-01-01 00:00:00'
         # Finds a job, from the timestamp of the last known job
         # Returns a URL for the specific element
         for result in SearchIterator(self.api, endpoint, last_timestamp):
             if result == {}:
                 continue
+            for r in result['data']:
+                if not self.datastorage.exists(r):
+                    print(r['id'])
+                else:
+                    print('exists in mongo')
             # If jobs are not in redis
             # add the URL to the jobs_queue (redis server)
-            self.processor.process_results(result)
-            timestamp = result['data'][-1]['attributes']['lastModifiedDate']
-            self.job_queue.set_last_timestamp_string(endpoint, timestamp)
+            # self.processor.process_results(result)
+            # timestamp = result['data'][-1]['attributes']['lastModifiedDate']
+            # self.job_queue.set_last_timestamp_string(endpoint, timestamp)
 
 
 if __name__ == '__main__':
@@ -38,24 +44,15 @@ if __name__ == '__main__':
         dotenv.load_dotenv()
         api = RegulationsAPI(os.getenv('API_KEY'))
 
-        # Checks if redis database is available
-        database = redis.Redis('redis')
-        # Sleep for 30 seconds to give time to load
-        while not is_redis_available(database):
-            print("Redis database is busy loading")
-            time.sleep(30)
-
-        job_queue = JobQueue(database)
-
         storage = DataStorage()
 
-        generator = WorkGenerator(job_queue, api, storage)
+        generator = WorkGenerator(api, storage)
 
         # Download dockets, documents, and comments
         # from all jobs in the job queue
         generator.download('dockets')
-        generator.download('documents')
-        generator.download('comments')
+        # generator.download('documents')
+        # generator.download('comments')
 
     while True:
         generate_work()
