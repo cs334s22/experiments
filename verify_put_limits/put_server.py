@@ -1,4 +1,5 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
+import json
 import os
 
 def create_server():
@@ -12,6 +13,8 @@ def create_server():
     @app.route('/put_data', methods=['PUT'])
     def put_data():
         files = request.files.getlist('file') # All the files must have 'file'
+        data = json.dumps(request.form.to_dict())
+        print(data)
         for file in files:
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))
         return 'OK'
