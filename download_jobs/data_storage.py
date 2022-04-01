@@ -11,9 +11,9 @@ class DataStorage:
     def exists(self, search_element):
         result_id = search_element['id']
 
-        return self.dockets.count_documents({'id': result_id}) > 0 or \
-            self.documents.count_documents({'id': result_id}) > 0 or \
-            self.comments.count_documents({'id': result_id}) > 0
+        return self.dockets.count_documents({'data.id': result_id}) > 0 or \
+            self.documents.count_documents({'data.id': result_id}) > 0 or \
+            self.comments.count_documents({'data.id': result_id}) > 0
 
     def add(self, data):
         if data['data']['type'] == 'dockets':
