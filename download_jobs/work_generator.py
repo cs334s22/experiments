@@ -24,11 +24,13 @@ class WorkGenerator:
         for result in SearchIterator(self.api, endpoint, last_timestamp):
             if result == {}:
                 continue
+            sum_= 1
             for r in result['data']:
                 if not self.datastorage.exists(r):
-                    print(r['id'])
+                    print(r['id'], 'number', sum_)
                 else:
                     print('exists in mongo')
+                sum_ += 1
             # If jobs are not in redis
             # add the URL to the jobs_queue (redis server)
             # self.processor.process_results(result)
