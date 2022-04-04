@@ -23,6 +23,7 @@ class WorkGenerator:
                 continue
             for r in result['data']:
                 if not self.datastorage.exists(r):
+                    print(r['id'])
                     writer.writerow([r['id'], r['links']['self'], r['type']])
         f.close()
 
