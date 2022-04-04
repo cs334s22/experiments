@@ -1,4 +1,5 @@
 import os
+import time
 import dotenv
 import csv
 from search_iterator import SearchIterator
@@ -38,5 +39,4 @@ def generate_work():
         # generator.download('comments')
 
 if __name__ == '__main__':
-    while True:
-        generate_work()
+    generate_work()
