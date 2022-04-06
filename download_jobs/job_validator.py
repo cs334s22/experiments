@@ -1,3 +1,4 @@
+from gc import collect
 import os
 import time
 import dotenv
@@ -15,6 +16,8 @@ class WorkGenerator:
 
     def download(self, endpoint):
         beginning_timestamp = '1972-01-01 00:00:00'
+        collection_size = self.datastorage.get_collection_size(endpoint)
+        print(collection_size)
         f = open(f'missing_{endpoint}.csv', 'w')
         writer = csv.writer(f)
         writer.writerow(['job_id', 'job_url', 'job_type'])
@@ -27,6 +30,9 @@ class WorkGenerator:
                     print(r['id'])
                     writer.writerow([r['id'], r['links']['self'], r['type']])
                 counter += 1
+            if counter % 5 == 0:
+                print(f'{collection_size/counter}% jobs processed')
+            
         f.close()
 
 
@@ -37,8 +43,8 @@ def generate_work():
         storage = DataStorage()
         generator = WorkGenerator(api, storage)
 
-        # generator.download('dockets')
-        generator.download('documents')
+        generator.download('dockets')
+        # generator.download('documents')
         # generator.download('comments')
 
 if __name__ == '__main__':
