@@ -18,6 +18,7 @@ class WorkGenerator:
         f = open(f'missing_{endpoint}.csv', 'w')
         writer = csv.writer(f)
         writer.writerow(['job_id', 'job_url', 'job_type'])
+        counter = 0
         for result in SearchIterator(self.api, endpoint, beginning_timestamp):
             if result == {}:
                 continue
@@ -25,6 +26,7 @@ class WorkGenerator:
                 if not self.datastorage.exists(r):
                     print(r['id'])
                     writer.writerow([r['id'], r['links']['self'], r['type']])
+                counter += 1
         f.close()
 
 
