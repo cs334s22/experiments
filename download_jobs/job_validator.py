@@ -31,8 +31,8 @@ class WorkGenerator:
                 counter += 1
             percentage = (counter / collection_size) * 100
             print(f'{percentage}%')
-            if percentage % 5 == 0:
-                print(f'{percentage}% jobs processed')
+            # if percentage % 5 == 0:
+            #     print(f'{percentage}% jobs processed')
         f.close()
 
 
