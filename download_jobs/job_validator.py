@@ -15,7 +15,7 @@ class WorkGenerator:
 
     def download(self, endpoint):
         beginning_timestamp = '1972-01-01 00:00:00'
-        f = open('missing_jobs.csv', 'w')
+        f = open('missing_documents.csv', 'w')
         writer = csv.writer(f)
         writer.writerow(['job_id', 'job_url', 'job_type'])
         for result in SearchIterator(self.api, endpoint, beginning_timestamp):
@@ -35,8 +35,8 @@ def generate_work():
         storage = DataStorage()
         generator = WorkGenerator(api, storage)
 
-        generator.download('dockets')
-        # generator.download('documents')
+        # generator.download('dockets')
+        generator.download('documents')
         # generator.download('comments')
 
 if __name__ == '__main__':
