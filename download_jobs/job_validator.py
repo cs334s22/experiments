@@ -17,7 +17,6 @@ class WorkGenerator:
     def download(self, endpoint):
         beginning_timestamp = '1972-01-01 00:00:00'
         collection_size = self.datastorage.get_collection_size(endpoint)
-        print(collection_size)
         f = open(f'missing_{endpoint}.csv', 'w')
         writer = csv.writer(f)
         writer.writerow(['job_id', 'job_url', 'job_type'])
@@ -30,9 +29,10 @@ class WorkGenerator:
                     print(r['id'])
                     writer.writerow([r['id'], r['links']['self'], r['type']])
                 counter += 1
-            if counter % 5 == 0:
-                print(f'{collection_size/counter}% jobs processed')
-            
+            percentage = (counter / collection_size) * 100
+            print(percentage, '%')
+            if percentage % 5 == 0:
+                print(f'{percentage}% jobs processed')
         f.close()
 
 
