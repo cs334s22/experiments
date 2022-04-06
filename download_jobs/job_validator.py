@@ -43,9 +43,9 @@ def generate_work():
         storage = DataStorage()
         generator = WorkGenerator(api, storage)
 
-        generator.download('dockets')
+        # generator.download('dockets')
         # generator.download('documents')
-        # generator.download('comments')
+        generator.download('comments')
 
 if __name__ == '__main__':
     generate_work()
