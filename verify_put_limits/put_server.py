@@ -1,6 +1,21 @@
-from flask import Flask, request, jsonify
-import json
+from flask import Flask, request, json
+import base64
 import os
+
+'''
+This had results, but couldn't work for both json and files
+
+files = request.files.getlist('file')
+if files is not None:
+    files = request.files.getlist('file') # All the files must have 'file'
+    for file in files:
+        file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))
+data = json.loads(request.get_json()) 
+# This is how we can read the text file
+# if request.form.getlist('text') is not None:
+#     file = request.files.getlist('text')
+#     file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))
+'''
 
 def create_server():
     app = Flask(__name__)
@@ -12,18 +27,11 @@ def create_server():
         
     @app.route('/put_data', methods=['PUT'])
     def put_data():
-        # Check that files are being sent, thus it is an attachment job
-        if request.files.getlist('file') is not None:
-            files = request.files.getlist('file') # All the files must have 'file'
-            data = json.dumps(request.form.to_dict()) # the data must be read this way if there are files sent
-            for file in files:
-                file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))
-        # else: this is where the notmal stuff would happen
+        data = json.loads(request.get_json())
 
-        # Check for the text file
-        # if request.form.getlist('text') is not None:
-        #     file = request.files.getlist('text')
-        #     file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))
+        for key in data['results'].keys():
+            with open(os.path.join(app.config['UPLOAD_FOLDER'], key), 'wb') as f:
+                f.write(base64.b64decode(data['results'][key]))
 
         return 'OK'
 
