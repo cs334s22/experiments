@@ -15,7 +15,7 @@ class WorkGenerator:
 
     def download(self, endpoint):
         beginning_timestamp = '1972-01-01 00:00:00'
-        f = open('missing_documents.csv', 'w')
+        f = open(f'missing_{endpoint}.csv', 'w')
         writer = csv.writer(f)
         writer.writerow(['job_id', 'job_url', 'job_type'])
         for result in SearchIterator(self.api, endpoint, beginning_timestamp):
