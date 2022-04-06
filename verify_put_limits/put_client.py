@@ -34,9 +34,9 @@ if __name__ == '__main__':
     # The keys should be generated from a combination of the job_id and the file format
     # see download_attachments() from attachments_tests/get_comment_attachments.py for how we get the format
     files = {
-        'test.txt': str(base64.b64encode(open('test_files/test.txt', 'rb').read())),
-        # 'cameraman.tif': str(base64.b64encode(open('test_files/cameraman.tif', 'rb').read())), 
-        # 'test.pdf': str(base64.b64encode(open('test_files/test.pdf', 'rb').read())), 
+        'test.txt': str(base64.b64encode(open('test_files/test.txt', 'rb').read()).decode('utf-8')),
+        'cameraman.tif': str(base64.b64encode(open('test_files/cameraman.tif', 'rb').read().decode('utf-8'))), 
+        'test.pdf': str(base64.b64encode(open('test_files/test.pdf', 'rb').read().decode('utf-8'))), 
     }
 
     data = {'directory': '/path/to/dir', 

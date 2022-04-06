@@ -28,10 +28,9 @@ def create_server():
     @app.route('/put_data', methods=['PUT'])
     def put_data():
         data = json.loads(request.get_json())
-
         for key in data['results'].keys():
             with open(os.path.join(app.config['UPLOAD_FOLDER'], key), 'wb') as f:
-                f.write(base64.b64decode(data['results'][key]))
+                f.write(base64.b64decode(data['results'][key].encode('utf-8')))
 
         return 'OK'
 
