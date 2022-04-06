@@ -1,6 +1,5 @@
-from gc import collect
 import os
-import time
+import sys
 import dotenv
 import csv
 from search_iterator import SearchIterator
@@ -30,22 +29,25 @@ class WorkGenerator:
                     writer.writerow([r['id'], r['links']['self'], r['type']])
                 counter += 1
             percentage = (counter / collection_size) * 100
-            print(f'{percentage}%')
-            # if percentage % 5 == 0:
-            #     print(f'{percentage}% jobs processed')
+            print(f'{percentage:.2f}%')
         f.close()
 
 
-def generate_work():
-        # Gets an API key
-        dotenv.load_dotenv()
-        api = RegulationsAPI(os.getenv('API_KEY'))
-        storage = DataStorage()
-        generator = WorkGenerator(api, storage)
+def generate_work(collection=None):
+    dotenv.load_dotenv()
+    api = RegulationsAPI(os.getenv('API_KEY'))
+    storage = DataStorage()
+    generator = WorkGenerator(api, storage)
 
-        # generator.download('dockets')
-        # generator.download('documents')
+    if not collection:
+        generator.download('dockets')
+        generator.download('documents')
         generator.download('comments')
+    else:
+        generator.download(collection)
 
 if __name__ == '__main__':
-    generate_work()
+    if len(sys.argv) > 1 and sys.argv[1] in ('dockets', 'documents', 'comments'):
+        generate_work(sys.argv[1])
+    else:
+        generate_work()
