@@ -30,7 +30,7 @@ class WorkGenerator:
                     writer.writerow([r['id'], r['links']['self'], r['type']])
                 counter += 1
             percentage = (counter / collection_size) * 100
-            print(percentage, '%')
+            print(f'{percentage}%')
             if percentage % 5 == 0:
                 print(f'{percentage}% jobs processed')
         f.close()
