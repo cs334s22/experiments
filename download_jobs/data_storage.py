@@ -16,6 +16,4 @@ class DataStorage:
             self.comments.count_documents({'data.id': result_id}) > 0
 
     def get_collection_size(self, collection):
-        for collection_name in ('dockets', 'documents', 'comments'):
-            if collection_name == collection:
-                return self.__getattribute__(collection_name).count_documents({})
+        return self.__getattribute__(collection).count_documents({})
