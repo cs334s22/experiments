@@ -1,6 +1,6 @@
 .DS_Store
-.venv
-.gitignore
+*client.cfg
+.coverage
 .env
 comment_ids.json
 mirrulations.zip
@@ -10,3 +10,15 @@ comments.bson
 related_response
 downloads
 put_downloads/*
+.idea
+.vagrant
+.venv
+.vscode
+*.egg-info
+*.log
+*.rdb
+unit-python.xml
+__pycache__
+htmlcov
+env_files
+
