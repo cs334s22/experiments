@@ -36,7 +36,13 @@ class WorkGenerator:
 
 def generate_work(collection=None):
     dotenv.load_dotenv()
-    api = RegulationsAPI(os.getenv('API_KEY'))
+
+    if collection is not None:
+        api_key = os.getenv(f'{collection.upper()}_API_KEY')
+    else:
+        api_key = os.getenv('DOCKETS_API_KEY')
+
+    api = RegulationsAPI(api_key)
     storage = DataStorage()
     generator = WorkGenerator(api, storage)
 
