@@ -33,6 +33,7 @@ class WorkGenerator:
         f.close()
 
 
+
 def generate_work(collection=None):
     dotenv.load_dotenv()
     api = RegulationsAPI(os.getenv('API_KEY'))
