@@ -17,6 +17,7 @@ put_downloads/*
 *.egg-info
 *.log
 *.rdb
+*.csv
 unit-python.xml
 __pycache__
 htmlcov
