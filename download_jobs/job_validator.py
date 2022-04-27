@@ -1,17 +1,22 @@
 import os
 import sys
 import dotenv
+import redis
+import time
 import csv
+from redis_check import is_redis_available
 from search_iterator import SearchIterator
 from regulations_api import RegulationsAPI
 from data_storage import DataStorage
+from job_queue import JobQueue
 
 
 class WorkGenerator:
 
-    def __init__(self, api, datastorage):
+    def __init__(self, api, datastorage, job_queue):
         self.api = api
         self.datastorage = datastorage
+        self.job_queue = job_queue
 
     def download(self, endpoint):
         beginning_timestamp = '1972-01-01 00:00:00'
@@ -33,14 +38,20 @@ class WorkGenerator:
         f.close()
 
 
-
 def generate_work(collection=None):
     dotenv.load_dotenv()
+
+    database = redis.Redis('redis')
+    # Sleep for 30 seconds to give time to load
+    while not is_redis_available(database):
+        print("Redis database is busy loading")
+        time.sleep(30)
 
     api_key = os.getenv((collection.upper() if collection else 'DOCKETS') + '_API_KEY')
     api = RegulationsAPI(api_key)
     storage = DataStorage()
-    generator = WorkGenerator(api, storage)
+    job_queue = JobQueue(database)
+    generator = WorkGenerator(api, storage, job_queue)
 
     if not collection:
         generator.download('dockets')
