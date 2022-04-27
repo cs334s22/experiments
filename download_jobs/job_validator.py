@@ -3,7 +3,6 @@ import sys
 import dotenv
 import redis
 import time
-import csv
 from redis_check import is_redis_available
 from search_iterator import SearchIterator
 from regulations_api import RegulationsAPI
@@ -21,21 +20,16 @@ class WorkGenerator:
     def download(self, endpoint):
         beginning_timestamp = '1972-01-01 00:00:00'
         collection_size = self.datastorage.get_collection_size(endpoint)
-        f = open(f'missing_{endpoint}.csv', 'w')
-        writer = csv.writer(f)
-        writer.writerow(['job_id', 'job_url', 'job_type'])
         counter = 0
         for result in SearchIterator(self.api, endpoint, beginning_timestamp):
             if result == {}:
                 continue
             for r in result['data']:
                 if not self.datastorage.exists(r):
-                    print(r['id'])
-                    writer.writerow([r['id'], r['links']['self'], r['type']])
+                    self.job_queue.add_job(r['links']['self'], r['type'])
                 counter += 1
             percentage = (counter / collection_size) * 100
             print(f'{percentage:.2f}%')
-        f.close()
 
 
 def generate_work(collection=None):
