@@ -26,6 +26,7 @@ class WorkGenerator:
                 continue
             for r in result['data']:
                 if not self.datastorage.exists(r):
+                    print(r['id'])
                     self.job_queue.add_job(r['links']['self'], r['type'])
                 counter += 1
             percentage = (counter / collection_size) * 100
