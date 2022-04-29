@@ -1,24 +1,25 @@
 import os
 import sys
 import dotenv
-import csv
+import redis
+import time
+from redis_check import is_redis_available
 from search_iterator import SearchIterator
 from regulations_api import RegulationsAPI
 from data_storage import DataStorage
+from job_queue import JobQueue
 
 
 class WorkGenerator:
 
-    def __init__(self, api, datastorage):
+    def __init__(self, api, datastorage, job_queue):
         self.api = api
         self.datastorage = datastorage
+        self.job_queue = job_queue
 
     def download(self, endpoint):
         beginning_timestamp = '1972-01-01 00:00:00'
         collection_size = self.datastorage.get_collection_size(endpoint)
-        f = open(f'missing_{endpoint}.csv', 'w')
-        writer = csv.writer(f)
-        writer.writerow(['job_id', 'job_url', 'job_type'])
         counter = 0
         for result in SearchIterator(self.api, endpoint, beginning_timestamp):
             if result == {}:
@@ -26,21 +27,26 @@ class WorkGenerator:
             for r in result['data']:
                 if not self.datastorage.exists(r):
                     print(r['id'])
-                    writer.writerow([r['id'], r['links']['self'], r['type']])
+                    self.job_queue.add_job(r['links']['self'], r['type'])
                 counter += 1
             percentage = (counter / collection_size) * 100
             print(f'{percentage:.2f}%')
-        f.close()
-
 
 
 def generate_work(collection=None):
     dotenv.load_dotenv()
 
+    database = redis.Redis()
+    # Sleep for 30 seconds to give time to load
+    while not is_redis_available(database):
+        print("Redis database is busy loading")
+        time.sleep(30)
+
     api_key = os.getenv((collection.upper() if collection else 'DOCKETS') + '_API_KEY')
     api = RegulationsAPI(api_key)
     storage = DataStorage()
-    generator = WorkGenerator(api, storage)
+    job_queue = JobQueue(database)
+    generator = WorkGenerator(api, storage, job_queue)
 
     if not collection:
         generator.download('dockets')
